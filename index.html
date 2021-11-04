@@ -8,6 +8,38 @@
   <title>Celebritiy Dating</title>
 </head>
 <body>
+  <div class="jumbotron">
+      <h1>Celebrity Dating Quiz</h1>
+      <p>Answer the following questions to find you famous soul mate!</p>
+  </div>
+  <div class="container">
+    <form id="celebrity">
+      <label for="interest">Seeking:</label>
+      <select id="interest">
+        <option value="alien">Alien</option>
+        <option value="pokemon">Pokemon</option>
+      </select>
+      <label for="q1">The first this or that</label>
+      <select id="q1">
+        <option value="1">This</option>
+        <option value="2">That</option>
+      </select>
+      <label for="q2">The second this or that</label>
+      <select id="q2">
+        <option value="1">This</option>
+        <option value="2">That</option>
+      </select>
+      <label for="q3">The third this or that</label>
+      <select id="q3">
+        <option value="1">This</option>
+        <option value="2">That</option>
+      </select>
 
+      <button type="submit" class="btn">Meet My Match!</button>
+    </form>
+    <div id="match">
+        <p>You've been matched with $<span id="partner"></span>. Enjoy... whatever relation comes from this.</p>
+    </div>
+  </div>
 </body>
 </html>
